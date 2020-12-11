@@ -10,6 +10,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'shop.js',
     },
+    resolve: {
+        extensions: ['.js', '.jsx']
+    },
     module: {
         rules: [{
                 test: /\.js$/,
